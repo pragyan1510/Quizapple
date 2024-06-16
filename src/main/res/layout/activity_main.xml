@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/applewallpaper"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <!-- Timer Display -->
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:text="10:00"
+        android:background="@drawable/rounded_background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+    android:layout_marginBottom="16dp" />
+
+
+    <!-- Question Display -->
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@drawable/quizlogo"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="120dp"/>
+
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="33dp"
+        android:textStyle="bold"
+        android:layout_below="@id/timerTextView"
+        android:layout_marginTop="150dp"
+        android:text="Question will be displayed here" />
+
+    <!-- Options RadioGroup -->
+    <RadioGroup
+        android:id="@+id/optionsRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@id/optionsRadioGroup"
+        android:backgroundTint="#2962FF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

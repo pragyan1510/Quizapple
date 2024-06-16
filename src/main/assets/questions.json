@@ -1,0 +1,55 @@
+{
+  "questions": [
+    {
+      "question": "Q1. What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Q2. Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "question": "Q3. Which one of the following river flows between Vindhyan and Satpura ranges?",
+      "options": ["Narmada", "Mahanadi", "Son", "Netravati"],
+      "answer": "Narmada"
+    },
+    {
+      "question": "Q4. The Central Rice Research Station is situated in?",
+      "options": ["Chennai", "Cuttack", "Bangalore", "Quilon"],
+      "answer": "Cuttack"
+    },
+    {
+      "question": "Q5. Who among the following wrote Sanskrit grammar?",
+      "options": ["Kalidasa", "Charak", "Panini", "Aryabhatt"],
+      "answer": "Panini"
+    },
+    {
+      "question": "Q6. Which among the following headstreams meets the Ganges in last?",
+      "options": ["Alaknanda", "Pindar", "Mandakini", "Bhagirathi"],
+      "answer": "Bhagirathi"
+    },
+    {
+      "question": "Q7. The metal whose salts are sensitive to light is?",
+      "options": ["Zinc", "Silver", "Copper", "Aluminum"],
+      "answer": "Silver"
+    },
+    {
+      "question": "Q8. Patanjali is well known for the compilation of –",
+      "options": ["Yoga Sutra", "Panchatantra", "Brahma Sutra", "Ayurveda"],
+      "answer": "Yoga Sutra"
+    },
+    {
+      "question": "Q9. Which one of the following rivers originates in Brahmagiri range of Western Ghats?",
+      "options": ["Pennar", "Cauvery", "Krishna", "Tapti"],
+      "answer": "Cauvery"
+    },
+    {
+      "question": "Q10. The country that has the highest in Barley Production?",
+      "options": ["China", "India", "Russia", "France"],
+      "answer": "Russia"
+    }
+
+  ]
+}
